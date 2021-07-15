@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+}
+
+.link--button{
+  text-decoration: none;
+  color: rgb(252, 105, 105);
+  flex: 1;
+  padding: 1rem 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.link--button.active{
+  color: rgb(160, 22, 22);
+}
+
+.link--button:hover{
+  color: rgb(160, 22, 22);
+}
+
+.link--li{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+}
+
+.fas{
+  text-align: center;
+  padding: 0 0 .50rem 0;
+}
+
+.link--h4{
+  font-size: 0.75rem;
+}
